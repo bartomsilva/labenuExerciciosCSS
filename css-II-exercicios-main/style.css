@@ -1,0 +1,25 @@
+header {
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+main {
+  width: 800px;
+}
+
+aside {
+  width: 180px;
+  border: 1px solid black;
+}
+
+footer {
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+
+button {
+  color: white;
+  font-family: serif;
+  background-color: black;
+}
