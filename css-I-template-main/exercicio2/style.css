@@ -1,6 +1,8 @@
 .longe-bordas{
     background-color: #FFA6A9;
-    padding: 30px;
+    display: block;
+    width: fit-content;
+    padding: 5px; 
   }
   
   .afastado{
