@@ -1,4 +1,4 @@
-# CSS II - Exercícios
+# CSS I - Exercícios
 
 ### Setup do projeto no Git
 
@@ -14,13 +14,13 @@
       <summary>Esqueceu como se faz?</summary>
       <img src="https://firebasestorage.googleapis.com/v0/b/assets-conteudo.appspot.com/o/gerais%2Fclone-repo.png?alt=media&token=d8b3c101-c6d4-4371-b018-ae4edec7e34c" alt="Garanta que o repositório é seu-usuário/nome-do-repo e faça o clone"/>
    </details>
--  [ ] Crie uma nova branch: git checkout -b `<turma-nome-sobrenome-a022>`.
+-  [ ] Crie uma nova branch: git checkout -b `<turma-nome-sobrenome-a021>`.
    <details>
       <summary>Entenda o comando `git checkout -b`</summary>
       <p>Na aula vocês aprenderam a criar uma branch (`git branch "nome-branch"`) e se mover até ela (`git checkout "nome-branch"`). Porém, o git permite utilizar contrações para realizar mais de ação com um único comando, que é o caso do (`git checkout -b "nome-branch"`), que cria e automaticamente se move para a branch recém criada.</p>
    </details>
--  [ ] Implemente o projeto na branch `<turma-nome-sobrenome-a022>`. Lembre-se de fazer commits.
--  [ ] Dê push nos commits: git push origin `<turma-nome-sobrenome-a022>`.
+-  [ ] Implemente o projeto na branch `<turma-nome-sobrenome-a021>`. Lembre-se de fazer commits.
+-  [ ] Dê push nos commits: git push origin `<turma-nome-sobrenome-a021>`.
 
 **Siga os passos abaixo ao terminar seu projeto, para enviá-lo:**
 
@@ -29,24 +29,21 @@
 -  [ ] Seu projeto será considerado completo quando a aprovação e o merge com a main acontecerem **em seu próprio repositório**.
 
 ### Como eu vou executar os exercícios?
-Desta vez todos os arquivos .md com o enunciado estão na pasta raiz do repositório, pois iremos utilizar os mesmos arquivos `.html` e `.css`. Dessa vez, você pode alterar tanto o arquivo HTML quanto o arquivo CSS, e ver o resultado acessando o arquivo `.html` no seu navegador de internet (sugerimos o Google Chrome). Para acessar o arquivo, você pode copiar o caminho dele e colar no navegador, ou utilizar a extensão LiveServer. Mais detalhes sobre a extensão no material assíncrono. Além disso, você pode utilizar o Chrome DevTools para entender como estão as propriedades dos elementos do seu projeto.
+Desta vez todos os arquivos .md com o enunciado estão na pasta raíz do repositório, pois iremos utilizar os mesmos arquivos `.html` e `.css`. Dessa vez, você deve  alterar o arquivo CSS, ver o resultado acessando o arquivo. No seu navegador de internet (sugerimos o Google Chrome). Para acessar o arquivo, você pode copiar o caminho dele e colar no navegador, ou utilizar a extensão LiveServer. Mais detalhes sobre a extensão no material assíncrono. Além disso, você pode utilizar o Chrome DevTools para entender como estão as propriedades dos elementos do seu projeto.
 
 ### O que você precisa saber e praticar desta aula?
 
-- [ ] item 1 - Centralização Horizontal
-- [ ] item 2 - Posicionamento
-- [ ] item 3 - Pseudoclasses
+- [ ] item 1 - Seletores
+- [ ] item 2 - Box model
+- [ ] item 3 - Fontes
 
-Na pasta `assets` há um vídeo que ilustra como deve estar o projeto no final.
-
-
+No final do exercício, o projeto deve se parecer com isso:
+![](assets/modelo.png)
 
 ### Informações úteis sobre o assunto:
 
-[Pseudoclasses| MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
+[Seletores| MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Selectors)
 
-[Position | MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
+[Box model | MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 
-[text-align | MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/text-align)
-
-[usando margin 0 para centralização | MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin#centraliza%C3%A7%C3%A3o_horizontal)
+[fontes - CSS Básico | MDN](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics#fontes_e_texto)

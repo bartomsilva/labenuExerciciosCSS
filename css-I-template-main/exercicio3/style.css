@@ -1,32 +1,50 @@
-*{
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
+
 }
-header{
-  
+
+body{
+  width:100%;
+  background-color: bisque;
 }
 
 main {
-  font-family: 'helvetica';   
+  font-family: Helvetica, sans-serif;
+  width: 100%;
 }
-section{
+
+section {
   float: left;
-/*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. 
+  /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. 
 Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
   /* width: 840px; */
-  width: 40vw;
-  padding: 40px;
+  width: 60%;
+  padding: 1rem;
+  background-color: rgb(9, 32, 213);
+  border: 6px solid orangered;
+}
+#mario {
+  border: 6px solid orangered;
+  width: 30%;
 }
 
-aside{
-  float:right;
- /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. 
+
+aside {
+  float: right;
+  /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. 
  Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
-  padding: 20px;
+  padding: 1rem;
   /* width: 340px; */
-  width: 40vw;
+  --widthA: 100%;
+  --widthB: calc(var(--widthA) - 60%);
+  --widthC: calc(var(--widthB) );
+  width: var(--widthC);
+  background-color: blanchedalmond;
+  border: 6px solid indigo;
 }
 
-article{
-  margin: 10px 0;
+article {
+  /* margin: 1rem 0; */
 }
